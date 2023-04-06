@@ -29,5 +29,8 @@ SELECT * FROM tb_colaboradores WHERE salario > 2.000;
 
 SELECT * FROM tb_colaboradores WHERE salario < 2.000;
 
+ALTER TABLE tb_colaboradores ADD  email varchar(255);
+UPDATE tb_colaboradores SET email= "rafael@email.com" WHERE id=2;
+-- Coloquei todos os emails
 UPDATE tb_colaboradores SET nome = 'Alex' WHERE id = 6;
 UPDATE tb_colaboradores SET salario = 3.500 WHERE id = 1 ;
